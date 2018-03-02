@@ -1,0 +1,81 @@
+/* *{
+    background: url("symbols.jpg"), rgba(7, 173, 7, 0.3);
+    background-blend-mode: color-burn; 
+    box-sizing: border-box;   
+}
+.main{
+    width: 80%;
+    height: 600px;
+    padding: 50%, 10%, 50%, 10%;
+    text-align: center;
+    margin: 50%, 10%, 50%, 10%;
+    color: white;
+    }
+    .main h1,h3{
+        color: white;
+        text-transform: uppercase;
+    }
+    .main .upper{
+        text-transform: capitalize;
+    }
+    .main span{
+        text-decoration: underline;
+    }
+    .main input:nth-last-child(1){
+        background-color: tomato;
+    } */
+*{
+    background-color: #87a952;
+    box-sizing: border-box;
+    text-align: center;
+        .clearfix{
+        clear: both;}
+}
+section{
+    padding-left: 5%;
+}
+/* Head Starts here */
+.head{
+    width: 50%;
+    margin: 5%;
+    margin-bottom: 5%;
+    color: white;
+    text-transform: uppercase;
+    }
+    .head .upper{
+        text-transform: capitalize;
+    font-style: italic;
+    }
+    .head h3{
+        letter-spacing: 5px}
+        .head h1{
+            letter-spacing: 11px;
+            font-weight: 600;
+        }
+        /* Main starts here */
+        .main form{
+            width: 50%;
+            margin: 5%;
+            color: white;
+            }
+            .main input{
+                background-color: white;
+                margin-bottom: 2%;
+                height: 30px;
+            }
+        .main .button{
+            background-color: tomato;
+            border-radius: 14px;
+            color: white;
+            width: 30%;
+        }
+/* Class END STARTS HERE */
+.end{
+    width: 44%;
+            color: white;
+            padding-left: 16%;
+
+            
+
+            
+}
