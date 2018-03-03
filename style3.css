@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+    
+}
+.clearfix{
+    clear: both;
+}
+/* Leftside starts here */
+.Leftside {
+    background-image: url(black.jpg);
+    width: 27%;
+    height: 600px;
+    float: left;
+    color: gray
+    
+}
+.codepen{
+    text-align: center;
+    margin-top: 20%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 52%;
+}
+.Leftside .balance{
+    margin-left: 10%;
+    padding-left: 15%;
+}
+.Leftside h1, h3{
+    color: white;
+    margin-left: 10%;
+    padding-left: 15%;
+    margin-bottom: 4%;
+}
+.Leftside h1{
+    width: 50px;
+    font-weight: 800;
+    }
+    .border{
+        margin-left: 26%;
+        margin-bottom: 2%;
+    padding-left: 15%;
+    border-bottom: gray solid;
+    width: 100px;
+    }
+    /* .Rightside starts here */
+    .Rightside{
+        text-align: center;
+        
+        height: 600px;
+    }
+    .Rightside h1{
+        padding-top: 5%;
+        padding-bottom: 4%;
+    }
+.Rightside h3{
+    color: gray;
+}
+/* .Rightside form{
+    border: fuchsia solid;
+    height: 40px;
+    width: 80px; */
+
+.Rightside input{
+padding: 9px;
+border: blueviolet solid;
+}
+.Rightside .button{
+    background-color: blueviolet;
+    color: white;
+   padding-left: 40px;
+   padding-right: 40px;
+
+}
